@@ -1,0 +1,712 @@
+piercing-rounds-magazine:
+    - firearm-magazine
+    - steel-plate
+    - copper-plate
+uranium-rounds-magazine:
+    - piercing-rounds-magazine
+    - uranium-238
+rocket:
+    - electronic-circuit
+    - explosives
+    - iron-plate
+explosive-rocket:
+    - rocket
+    - explosives
+atomic-bomb:
+    - processing-unit
+    - explosives
+    - uranium-235
+shotgun-shell:
+    - copper-plate
+    - iron-plate
+piercing-shotgun-shell:
+    - shotgun-shell
+    - copper-plate
+    - steel-plate
+railgun-dart:
+    - steel-plate
+    - electronic-circuit
+cannon-shell:
+    - steel-plate
+    - plastic-bar
+    - explosives
+explosive-cannon-shell:
+    - steel-plate
+    - plastic-bar
+    - explosives
+uranium-cannon-shell:
+    - cannon-shell
+    - uranium-238
+explosive-uranium-cannon-shell:
+    - explosive-cannon-shell
+    - uranium-238
+artillery-shell:
+    - explosive-cannon-shell
+    - radar
+    - explosives
+flamethrower-ammo:
+    - steel-plate
+    - light-oil
+    - heavy-oil
+poison-capsule:
+    - steel-plate
+    - electronic-circuit
+    - coal
+slowdown-capsule:
+    - steel-plate
+    - electronic-circuit
+    - coal
+grenade:
+    - iron-plate
+    - coal
+cluster-grenade:
+    - grenade
+    - explosives
+    - steel-plate
+defender-capsule:
+    - piercing-rounds-magazine
+    - electronic-circuit
+    - iron-gear-wheel
+distractor-capsule:
+    - defender-capsule
+    - advanced-circuit
+destroyer-capsule:
+    - distractor-capsule
+    - speed-module
+discharge-defense-remote:
+    - electronic-circuit
+cliff-explosives:
+    - explosives
+    - grenade
+    - empty-barrel
+artillery-targeting-remote:
+    - processing-unit
+    - radar
+copper-plate:
+    - copper-ore
+iron-plate:
+    - iron-ore
+stone-brick:
+    - stone
+wood:
+    - raw-wood
+wooden-chest:
+    - wood
+iron-stick:
+    - iron-plate
+iron-axe:
+    - iron-stick
+    - iron-plate
+stone-furnace:
+    - stone
+boiler:
+    - stone-furnace
+    - pipe
+steam-engine:
+    - iron-gear-wheel
+    - pipe
+    - iron-plate
+iron-gear-wheel:
+    - iron-plate
+electronic-circuit:
+    - iron-plate
+    - copper-cable
+transport-belt:
+    - iron-plate
+    - iron-gear-wheel
+electric-mining-drill:
+    - electronic-circuit
+    - iron-gear-wheel
+    - iron-plate
+burner-mining-drill:
+    - iron-gear-wheel
+    - stone-furnace
+    - iron-plate
+inserter:
+    - electronic-circuit
+    - iron-gear-wheel
+    - iron-plate
+burner-inserter:
+    - iron-plate
+    - iron-gear-wheel
+pipe:
+    - iron-plate
+offshore-pump:
+    - electronic-circuit
+    - pipe
+    - iron-gear-wheel
+copper-cable:
+    - copper-plate
+small-electric-pole:
+    - wood
+    - copper-cable
+pistol:
+    - copper-plate
+    - iron-plate
+submachine-gun:
+    - iron-gear-wheel
+    - copper-plate
+    - iron-plate
+firearm-magazine:
+    - iron-plate
+light-armor:
+    - iron-plate
+radar:
+    - electronic-circuit
+    - iron-gear-wheel
+    - iron-plate
+small-lamp:
+    - electronic-circuit
+    - iron-stick
+    - iron-plate
+pipe-to-ground:
+    - pipe
+    - iron-plate
+assembling-machine-1:
+    - electronic-circuit
+    - iron-gear-wheel
+    - iron-plate
+repair-pack:
+    - electronic-circuit
+    - iron-gear-wheel
+gun-turret:
+    - iron-gear-wheel
+    - copper-plate
+    - iron-plate
+night-vision-equipment:
+    - advanced-circuit
+    - steel-plate
+energy-shield-equipment:
+    - advanced-circuit
+    - steel-plate
+energy-shield-mk2-equipment:
+    - energy-shield-equipment
+    - processing-unit
+battery-equipment:
+    - battery
+    - steel-plate
+battery-mk2-equipment:
+    - battery-equipment
+    - processing-unit
+solar-panel-equipment:
+    - solar-panel
+    - advanced-circuit
+    - steel-plate
+fusion-reactor-equipment:
+    - processing-unit
+personal-laser-defense-equipment:
+    - processing-unit
+    - steel-plate
+    - laser-turret
+discharge-defense-equipment:
+    - processing-unit
+    - steel-plate
+    - laser-turret
+exoskeleton-equipment:
+    - processing-unit
+    - electric-engine-unit
+    - steel-plate
+personal-roboport-equipment:
+    - advanced-circuit
+    - iron-gear-wheel
+    - steel-plate
+    - battery
+personal-roboport-mk2-equipment:
+    - personal-roboport-equipment
+    - processing-unit
+basic-oil-processing:
+    - crude-oil
+advanced-oil-processing:
+    - water
+    - crude-oil
+coal-liquefaction:
+    - coal
+    - heavy-oil
+    - steam
+heavy-oil-cracking:
+    - water
+    - heavy-oil
+light-oil-cracking:
+    - water
+    - light-oil
+sulfuric-acid:
+    - sulfur
+    - iron-plate
+    - water
+plastic-bar:
+    - petroleum-gas
+    - coal
+solid-fuel-from-light-oil:
+    - light-oil
+solid-fuel-from-petroleum-gas:
+    - petroleum-gas
+solid-fuel-from-heavy-oil:
+    - heavy-oil
+sulfur:
+    - water
+    - petroleum-gas
+lubricant:
+    - heavy-oil
+empty-barrel:
+    - steel-plate
+steel-plate:
+    - iron-plate
+long-handed-inserter:
+    - iron-gear-wheel
+    - iron-plate
+    - inserter
+fast-inserter:
+    - electronic-circuit
+    - iron-plate
+    - inserter
+filter-inserter:
+    - fast-inserter
+    - electronic-circuit
+stack-inserter:
+    - iron-gear-wheel
+    - electronic-circuit
+    - advanced-circuit
+    - fast-inserter
+stack-filter-inserter:
+    - stack-inserter
+    - electronic-circuit
+speed-module:
+    - advanced-circuit
+    - electronic-circuit
+speed-module-2:
+    - speed-module
+    - advanced-circuit
+    - processing-unit
+speed-module-3:
+    - speed-module-2
+    - advanced-circuit
+    - processing-unit
+productivity-module:
+    - advanced-circuit
+    - electronic-circuit
+productivity-module-2:
+    - productivity-module
+    - advanced-circuit
+    - processing-unit
+productivity-module-3:
+    - productivity-module-2
+    - advanced-circuit
+    - processing-unit
+effectivity-module:
+    - advanced-circuit
+    - electronic-circuit
+effectivity-module-2:
+    - effectivity-module
+    - advanced-circuit
+    - processing-unit
+effectivity-module-3:
+    - effectivity-module-2
+    - advanced-circuit
+    - processing-unit
+player-port:
+    - electronic-circuit
+    - iron-gear-wheel
+    - iron-plate
+fast-transport-belt:
+    - iron-gear-wheel
+    - transport-belt
+express-transport-belt:
+    - iron-gear-wheel
+    - fast-transport-belt
+    - lubricant
+solar-panel:
+    - steel-plate
+    - electronic-circuit
+    - copper-plate
+assembling-machine-2:
+    - iron-plate
+    - electronic-circuit
+    - iron-gear-wheel
+    - assembling-machine-1
+assembling-machine-3:
+    - speed-module
+    - assembling-machine-2
+car:
+    - engine-unit
+    - iron-plate
+    - steel-plate
+tank:
+    - engine-unit
+    - steel-plate
+    - iron-gear-wheel
+    - advanced-circuit
+rail:
+    - stone
+    - iron-stick
+    - steel-plate
+locomotive:
+    - engine-unit
+    - electronic-circuit
+    - steel-plate
+cargo-wagon:
+    - iron-gear-wheel
+    - iron-plate
+    - steel-plate
+fluid-wagon:
+    - iron-gear-wheel
+    - steel-plate
+    - pipe
+    - storage-tank
+artillery-wagon:
+    - engine-unit
+    - iron-gear-wheel
+    - steel-plate
+    - pipe
+    - advanced-circuit
+train-stop:
+    - electronic-circuit
+    - iron-plate
+    - steel-plate
+rail-signal:
+    - electronic-circuit
+    - iron-plate
+rail-chain-signal:
+    - electronic-circuit
+    - iron-plate
+heavy-armor:
+    - copper-plate
+    - steel-plate
+modular-armor:
+    - advanced-circuit
+    - steel-plate
+power-armor:
+    - processing-unit
+    - electric-engine-unit
+    - steel-plate
+power-armor-mk2:
+    - effectivity-module-3
+    - speed-module-3
+    - processing-unit
+    - steel-plate
+iron-chest:
+    - iron-plate
+steel-chest:
+    - steel-plate
+stone-wall:
+    - stone-brick
+gate:
+    - stone-wall
+    - steel-plate
+    - electronic-circuit
+flamethrower:
+    - steel-plate
+    - iron-gear-wheel
+land-mine:
+    - steel-plate
+    - explosives
+rocket-launcher:
+    - iron-plate
+    - iron-gear-wheel
+    - electronic-circuit
+shotgun:
+    - iron-plate
+    - iron-gear-wheel
+    - copper-plate
+    - wood
+combat-shotgun:
+    - steel-plate
+    - iron-gear-wheel
+    - copper-plate
+    - wood
+railgun:
+    - steel-plate
+    - copper-plate
+    - electronic-circuit
+    - advanced-circuit
+science-pack-1:
+    - copper-plate
+    - iron-gear-wheel
+science-pack-2:
+    - inserter
+    - transport-belt
+science-pack-3:
+    - advanced-circuit
+    - engine-unit
+    - electric-mining-drill
+military-science-pack:
+    - piercing-rounds-magazine
+    - grenade
+    - gun-turret
+production-science-pack:
+    - electric-engine-unit
+    - electric-furnace
+high-tech-science-pack:
+    - battery
+    - processing-unit
+    - speed-module
+    - copper-cable
+lab:
+    - electronic-circuit
+    - iron-gear-wheel
+    - transport-belt
+red-wire:
+    - electronic-circuit
+    - copper-cable
+green-wire:
+    - electronic-circuit
+    - copper-cable
+underground-belt:
+    - iron-plate
+    - transport-belt
+fast-underground-belt:
+    - iron-gear-wheel
+    - underground-belt
+express-underground-belt:
+    - iron-gear-wheel
+    - fast-underground-belt
+    - lubricant
+loader:
+    - inserter
+    - electronic-circuit
+    - iron-gear-wheel
+    - iron-plate
+    - transport-belt
+fast-loader:
+    - fast-transport-belt
+    - loader
+express-loader:
+    - express-transport-belt
+    - fast-loader
+splitter:
+    - electronic-circuit
+    - iron-plate
+    - transport-belt
+fast-splitter:
+    - splitter
+    - iron-gear-wheel
+    - electronic-circuit
+express-splitter:
+    - fast-splitter
+    - iron-gear-wheel
+    - advanced-circuit
+    - lubricant
+advanced-circuit:
+    - electronic-circuit
+    - plastic-bar
+    - copper-cable
+processing-unit:
+    - electronic-circuit
+    - advanced-circuit
+    - sulfuric-acid
+logistic-robot:
+    - flying-robot-frame
+    - advanced-circuit
+construction-robot:
+    - flying-robot-frame
+    - electronic-circuit
+logistic-chest-passive-provider:
+    - steel-chest
+    - electronic-circuit
+    - advanced-circuit
+logistic-chest-active-provider:
+    - steel-chest
+    - electronic-circuit
+    - advanced-circuit
+logistic-chest-storage:
+    - steel-chest
+    - electronic-circuit
+    - advanced-circuit
+logistic-chest-buffer:
+    - steel-chest
+    - electronic-circuit
+    - advanced-circuit
+logistic-chest-requester:
+    - steel-chest
+    - electronic-circuit
+    - advanced-circuit
+rocket-silo:
+    - steel-plate
+    - concrete
+    - pipe
+    - processing-unit
+    - electric-engine-unit
+roboport:
+    - steel-plate
+    - iron-gear-wheel
+    - advanced-circuit
+steel-axe:
+    - steel-plate
+    - iron-stick
+big-electric-pole:
+    - steel-plate
+    - copper-plate
+substation:
+    - steel-plate
+    - advanced-circuit
+    - copper-plate
+medium-electric-pole:
+    - steel-plate
+    - copper-plate
+accumulator:
+    - iron-plate
+    - battery
+steel-furnace:
+    - steel-plate
+    - stone-brick
+electric-furnace:
+    - steel-plate
+    - advanced-circuit
+    - stone-brick
+beacon:
+    - electronic-circuit
+    - advanced-circuit
+    - steel-plate
+    - copper-cable
+pumpjack:
+    - steel-plate
+    - iron-gear-wheel
+    - electronic-circuit
+    - pipe
+oil-refinery:
+    - steel-plate
+    - iron-gear-wheel
+    - stone-brick
+    - electronic-circuit
+    - pipe
+engine-unit:
+    - steel-plate
+    - iron-gear-wheel
+    - pipe
+electric-engine-unit:
+    - engine-unit
+    - lubricant
+    - electronic-circuit
+flying-robot-frame:
+    - electric-engine-unit
+    - battery
+    - steel-plate
+    - electronic-circuit
+explosives:
+    - sulfur
+    - coal
+    - water
+battery:
+    - sulfuric-acid
+    - iron-plate
+    - copper-plate
+storage-tank:
+    - iron-plate
+    - steel-plate
+pump:
+    - engine-unit
+    - steel-plate
+    - pipe
+chemical-plant:
+    - steel-plate
+    - iron-gear-wheel
+    - electronic-circuit
+    - pipe
+small-plane:
+    - plastic-bar
+    - advanced-circuit
+    - electric-engine-unit
+    - battery
+arithmetic-combinator:
+    - copper-cable
+    - electronic-circuit
+decider-combinator:
+    - copper-cable
+    - electronic-circuit
+constant-combinator:
+    - copper-cable
+    - electronic-circuit
+power-switch:
+    - iron-plate
+    - copper-cable
+    - electronic-circuit
+programmable-speaker:
+    - iron-plate
+    - copper-cable
+    - electronic-circuit
+low-density-structure:
+    - steel-plate
+    - copper-plate
+    - plastic-bar
+rocket-fuel:
+    - solid-fuel
+rocket-control-unit:
+    - processing-unit
+    - speed-module
+rocket-part:
+    - rocket-control-unit
+    - low-density-structure
+    - rocket-fuel
+satellite:
+    - low-density-structure
+    - solar-panel
+    - accumulator
+    - radar
+    - processing-unit
+    - rocket-fuel
+concrete:
+    - stone-brick
+    - iron-ore
+    - water
+hazard-concrete:
+    - concrete
+refined-concrete:
+    - concrete
+    - iron-stick
+    - steel-plate
+    - water
+refined-hazard-concrete:
+    - refined-concrete
+landfill:
+    - stone
+electric-energy-interface:
+    - iron-plate
+    - electronic-circuit
+nuclear-reactor:
+    - concrete
+    - steel-plate
+    - advanced-circuit
+    - copper-plate
+centrifuge:
+    - concrete
+    - steel-plate
+    - advanced-circuit
+    - iron-gear-wheel
+uranium-processing:
+    - uranium-ore
+kovarex-enrichment-process:
+    - uranium-235
+    - uranium-238
+nuclear-fuel:
+    - uranium-235
+    - rocket-fuel
+nuclear-fuel-reprocessing:
+    - used-up-uranium-fuel-cell
+uranium-fuel-cell:
+    - iron-plate
+    - uranium-235
+    - uranium-238
+heat-exchanger:
+    - steel-plate
+    - copper-plate
+    - pipe
+heat-pipe:
+    - steel-plate
+    - copper-plate
+steam-turbine:
+    - iron-gear-wheel
+    - copper-plate
+    - pipe
+laser-turret:
+    - steel-plate
+    - electronic-circuit
+    - battery
+flamethrower-turret:
+    - steel-plate
+    - iron-gear-wheel
+    - pipe
+    - engine-unit
+artillery-turret:
+    - steel-plate
+    - concrete
+    - iron-gear-wheel
+    - advanced-circuit
